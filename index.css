@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.container {
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+.header {
+    width: 100%;
+    color: white;
+    background-color: #f35454;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+.menu-item {
+    list-style: none;
+}
+.menu-link {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: hold;
+}
+
+.banner-section {
+    background-color: rgb(233, 223, 135);
+    background-size: cover;
+    background-position: center;
+    margin-top: 103px;
+    padding: 100px 0;
+}
+
+.banner-title {
+    font-size: 48px;
+}
+
+.banner-title, .banner-desc {
+    text-align: center;
+    color: white;
+}
+
+/* CARDS */
+
+.cards-section {
+    padding: 50px 0;
+}
+
+.cards-title, .cards-desc {
+    color: #ee8712e8;
+    text-align: center;
+}
+
+.card {
+    background: white;
+    width: 25%;
+    padding: 25px;
+    margin-top: 25px;
+    text-align: center;
+    box-shadow: 0px 2px 7px 0px #f0a23c; /* Тени */
+}
+.card-link {
+    text-decoration: none;
+    color: white;
+}
+.card-buttom {
+   text-align: center;
+   background: #ee8712e8;
+   padding: 10px 70 px;
+   border-radius: 10px;
+}
+.card-title {
+    margin-bottom: 10px;
+}
+.card-buttom {
+    cursor: pointed;
+}
+.card:hover {
+    box-shadow: 0px 10px 37px 0px #f0a23c;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: #f35454;
+    background-size: cover;
+    padding: 50px 0px;
+}
+.copyright {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.foooter-logo {
+    width: 35px;
+}
